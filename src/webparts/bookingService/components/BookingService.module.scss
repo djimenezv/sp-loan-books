@@ -1,5 +1,8 @@
 .webpart{
-  text-align: center;
+  .header{
+    text-align: center;
+    color: gray;
+  }
 .contaier {
   display: flex;
   flex-direction: row;
@@ -82,6 +85,8 @@
           margin: 2px 10px;
           position: absolute;
           right: 16px;
+          background: beige;
+          padding: 0 20px;
         }
       }
       .title {

@@ -90,7 +90,7 @@ export class BookingService extends React.Component<any, any> {
   public render(): React.ReactElement<IBookingServiceProps> {
     return (
     <div className={styles.webpart}>
-      <h3>Loan Books</h3>
+      <h3 className={styles.header}>Loan Books</h3>
       <div className={styles.contaier}>
         {this.showMessage}
           <div className={styles.master}>
